@@ -1,0 +1,44 @@
+###########################################
+POST http://127.0.0.1:5000/api/products
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmM1OGY5NGRkZWQ1YWI2OTMwMWFjZiIsImlhdCI6MTY2NDI2NjY0NCwiZXhwIjoxNjY2ODU4NjQ0fQ.NNB3Dkzjb5iWDJ7fMdL_xS7X9ViyvIrbKgHbRqeuNT4
+
+{
+    
+}
+
+###########################################
+GET http://127.0.0.1:5000/api/products
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmM1OGY5NGRkZWQ1YWI2OTMwMWFjZiIsImlhdCI6MTY2NDI2NjY0NCwiZXhwIjoxNjY2ODU4NjQ0fQ.NNB3Dkzjb5iWDJ7fMdL_xS7X9ViyvIrbKgHbRqeuNT4
+
+{
+    
+}
+
+###########################################
+PUT http://127.0.0.1:5000/api/products/6333ecb29dd3de3fca3afb19
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmM1OGY5NGRkZWQ1YWI2OTMwMWFjZiIsImlhdCI6MTY2NDI2NjY0NCwiZXhwIjoxNjY2ODU4NjQ0fQ.NNB3Dkzjb5iWDJ7fMdL_xS7X9ViyvIrbKgHbRqeuNT4
+
+{
+    "name":"Test product",
+    "description":"Test description",
+    "price":0,
+    "category":"Electronics",
+    "countInStock":10,
+    "image":"/images/sample.jpg",
+    "brand":"Apple"
+    
+}
+
+###########################################
+POST http://127.0.0.1:5000/api/products/addreview/632c58fa4dded5ab69301ad3
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmM1OGY5NGRkZWQ1YWI2OTMwMWFkMCIsImlhdCI6MTY2NDQzMTg2NywiZXhwIjoxNjY3MDIzODY3fQ.-xtIhzpnDahBVBcdppybtTZFSI-5ewL4axKF7s7hNeo
+
+{
+    "rating":4,
+    "comment":"Very good"
+    
+}

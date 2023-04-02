@@ -1,0 +1,62 @@
+POST http://127.0.0.1:5000/api/users/login
+content-type: application/json
+
+{
+    "email":"admin@example.com",
+    "password":"123456"
+}
+###########################################
+GET http://127.0.0.1:5000/api/users/profile
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmVjZDRiMDhiYjAyMmRjY2MzMmQ2MCIsImlhdCI6MTY2NDAxMjU4MCwiZXhwIjoxNjY2NjA0NTgwfQ.5vdqkE9LG6a8xXMMDEL4sVEKM7DCtQXZCUAnTsmm4ck
+
+{
+    
+}
+
+###########################################
+GET http://127.0.0.1:5000/api/users/getusers
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmM1OGY5NGRkZWQ1YWI2OTMwMWFjZiIsImlhdCI6MTY2NDI2NjY0NCwiZXhwIjoxNjY2ODU4NjQ0fQ.NNB3Dkzjb5iWDJ7fMdL_xS7X9ViyvIrbKgHbRqeuNT4
+
+{
+    
+}
+
+###########################################
+GET http://127.0.0.1:5000/api/users/632c58f94dded5ab69301ad0
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmM1OGY5NGRkZWQ1YWI2OTMwMWFjZiIsImlhdCI6MTY2NDI2NjY0NCwiZXhwIjoxNjY2ODU4NjQ0fQ.NNB3Dkzjb5iWDJ7fMdL_xS7X9ViyvIrbKgHbRqeuNT4
+
+{
+    
+}
+
+###########################################
+DELETE  http://127.0.0.1:5000/api/users/632ece8508bb022dccc32d69
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmM1OGY5NGRkZWQ1YWI2OTMwMWFjZiIsImlhdCI6MTY2NDI2NjY0NCwiZXhwIjoxNjY2ODU4NjQ0fQ.NNB3Dkzjb5iWDJ7fMdL_xS7X9ViyvIrbKgHbRqeuNT4
+
+{
+    
+}
+
+###########################################
+POST http://127.0.0.1:5000/api/users/register
+content-type: application/json
+
+{
+    "name":"HuynhLoc",
+    "email":"admin@example.com",
+    "password":"123456"
+}
+
+###########################################
+PUT http://127.0.0.1:5000/api/users/updateProfile
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMmVjZDRiMDhiYjAyMmRjY2MzMmQ2MCIsImlhdCI6MTY2NDAxMjU4MCwiZXhwIjoxNjY2NjA0NTgwfQ.5vdqkE9LG6a8xXMMDEL4sVEKM7DCtQXZCUAnTsmm4ck
+
+{
+    "name":"HuynhLoc057",
+    "email":"huynhloc577@example.com"
+}
